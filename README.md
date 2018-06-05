@@ -1,4 +1,4 @@
-# CIFAR-10 2-class classification
+# Caltech-101 5-class classification
 
 ## Data
 
@@ -35,6 +35,9 @@
 | Method      | Score (%) |
 |  :---:      |   :---:   |
 |  **kNN**    |   70.00*  |
-|  SVM        |   16.50   |
+|  **kNN** (1v1) | 70.5*  |
+|  SVM (1v1)  |   55.00   | 
+|  SVM (1vmany)       |   16.50   |
 |  Linear SVM |   63.00   |
+| Linear SVM (1v1)| 45.00 | 
 |  radius-NN  |   16.50   |
